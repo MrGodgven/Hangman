@@ -37,6 +37,7 @@ class Program()
             {
                 Console.Clear();
                 Display(word, our_word, tries, triedsymbols);
+                Thread.Sleep(500);
 
                 Console.WriteLine("\n     ");
 
